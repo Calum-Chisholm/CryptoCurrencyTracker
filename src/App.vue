@@ -4,6 +4,7 @@
 
 <script>
 import CryptoChart from '@/components/CryptoChart'
+import {eventBus} from '@/main.js';
 
 export default {
   name: 'app',
