@@ -1,5 +1,5 @@
 <template lang="html">
- <crypto-chart :cryptoStats="this.cryptoStats"></crypto-chart>
+  <crypto-chart :cryptoStats="this.cryptoStats"></crypto-chart>
 </template>
 
 <script>
@@ -24,8 +24,12 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
-</style>
+<style lang="css">
+body {
+  background:linear-gradient(180deg, LightCoral 0%, FireBrick 100%);
+  text-align: center;
+  font-family: Helvetica;
+}
 
-name: 'crypto-chart',
-props: ['cryptoStats']
+
+</style>

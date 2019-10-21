@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="">
+  <div class="graph">
     <chart-select></chart-select>
     <GChart
     :type="selectedChart"
@@ -56,5 +56,9 @@ export default {
 
 </script>
 
-<style lang="css" scoped>
+<style lang="css">
+  body {
+    display: flex;
+    justify-content: center;
+  }
 </style>
